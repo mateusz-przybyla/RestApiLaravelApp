@@ -70,7 +70,7 @@ Uruchom projekt lokalnie na swoim pc:
 
 ![](./readme/deleted-data.jpg)
 
--   Możliwość wyświtlenia wszystkich wyników po wybranym statusie:
+-   Możliwość wyświetlenia wszystkich dostępnych wyników po wybranym statusie:
 
 ![](./readme/search-by-status.jpg)
 
