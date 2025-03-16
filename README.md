@@ -17,14 +17,43 @@ Uruchom projekt lokalnie na swoim pc:
   git clone https://github.com/mateusz-przybyla/RestApiLaravelApp.git
 ```
 
+-   przejdź do katalogu projektu:
+
+```bash
+  cd RestApiLaravelApp
+```
+
 -   zainstaluj wymagane zależności:
 
 ```bash
   composer install
 ```
 
--   nie ma konieczności konfigurowania pliku .env oraz połączenia z bazą danych,
--   będąc w katalogu projektu, uruchom aplikację lokalnie komendą:
+-   zmień nazwę pliku konfiguracyjnego z .env.example na .env,
+-   utwórz bazę danych o nazwie np. `laravel` i skonfiguruj połączenie z bazą danych MySQL:
+
+```bash
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=laravel
+  DB_USERNAME=root
+  DB_PASSWORD=
+```
+
+-   uruchom migracje:
+
+```bash
+  php artisan migrate
+```
+
+-   wygeneruj klucz aplikacji:
+
+```bash
+  php artisan key:generate
+```
+
+-   uruchom serwer deweloperski:
 
 ```bash
   php artisan serve
