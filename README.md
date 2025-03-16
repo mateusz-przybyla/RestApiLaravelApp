@@ -54,7 +54,7 @@ Uruchom projekt lokalnie na swoim pc:
 
 ![](./readme/edit-form.jpg)
 
--   Komunikat informujący o edycji wybranego zwierzęcia:
+-   Komunikat informujący o edycji wybranego zwierzęcia(zmieniono nazwę na: tygrys2 i status na: sold):
 
 ![](./readme/edit-message.jpg)
 
