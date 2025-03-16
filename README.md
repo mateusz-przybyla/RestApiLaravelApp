@@ -60,7 +60,7 @@ Uruchom projekt lokalnie na swoim pc:
 
 -   Wynik wyszukiwania edytowanego zwierzęcia (zmieniono nazwę na: tygrys2 i status na: sold):
 
-![](./readme/edited-data.jpg)
+![](./readme/edited-result.jpg)
 
 -   Komunikat informujący o usunięciu wybranego zwierzęcia:
 
@@ -68,7 +68,7 @@ Uruchom projekt lokalnie na swoim pc:
 
 -   Wynik wyszukiwania usuniętego zwierzęcia:
 
-![](./readme/deleted-data.jpg)
+![](./readme/deleted-result.jpg)
 
 -   Możliwość wyświetlenia wszystkich dostępnych wyników po wybranym statusie:
 
